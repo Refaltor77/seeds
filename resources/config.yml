@@ -1,0 +1,35 @@
+---
+# Bienvenue sur seeds v1.0.0
+# id:meta:count:chance
+# if the chance is setup for example on 5 then you will have one chance on 5
+
+blé:
+  - "388:0:1:5"
+
+carrote:
+  - "4:0:2:10"
+
+patate:
+  - "1:0:2:6"
+
+verrue du nether:
+  - "369:0:3:20"
+
+melon:
+  - "120:0:5:30"
+
+canne a sucre:
+  - "2:0:6:2"
+
+citrouille:
+  - "325:8:2:8"
+
+cactus:
+  - "6:0:1:8"
+
+beterave:
+  - "89:0:2:6"
+
+haute herbe:
+  - "295:0:1:20"
+...

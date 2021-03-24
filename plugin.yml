@@ -1,0 +1,5 @@
+name: seeds
+author: refaltor
+api: 3.0.0
+main: seeds\refaltor\seeds
+version: 1.0.0
