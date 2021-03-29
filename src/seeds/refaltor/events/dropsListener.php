@@ -88,5 +88,13 @@ class dropsListener implements Listener
                 }
             }
         }
+        if ($block->getId() === Block::TALL_GRASS){
+            foreach(seeds::getConfigSeed()->getConfig()->get("haute herbe") as $drop){
+                $drop = explode(":", $drop);
+                if (mt_rand(1, $drop[3]) === 1){
+                    $event->setDrops([Item::get($drop[0], $drop[1], $drop[2])]);
+                }
+            }
+        }
     }
 }
