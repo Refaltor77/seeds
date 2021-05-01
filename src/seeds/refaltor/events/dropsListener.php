@@ -40,7 +40,7 @@ class dropsListener implements Listener
                 }
             }
         }
-        if ($block->getId() === Block::NETHER_WART_PLANT && $block->getDamage() === 7){
+        if ($block->getId() === Block::NETHER_WART_PLANT && $block->getDamage() === 3){
             foreach(seeds::getConfigSeed()->getConfig()->get("verrue du nether") as $drop){
                 $drop = explode(":", $drop);
                 if (mt_rand(1, $drop[3]) === 1){
